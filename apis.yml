@@ -1,9 +1,30 @@
 aid: birches-health
 name: Birches Health
-description: 'Birches Health is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Birches Health is a fully virtual behavioral addiction treatment provider
+  specializing in gambling disorder and related compulsive behaviors such as sports
+  betting, day trading, video gaming, and pornography. Founded in 2023 and headquartered
+  in Phoenix, Arizona, the company delivers confidential online care from licensed
+  gambling counselors, peer mentors, financial coaches, and group therapy across all
+  50 states. Birches Health partners with 18+ state governments that have legalized
+  sports betting and 100+ national insurance plans (including UnitedHealthcare, Cigna,
+  Aetna, and Blue Cross Blue Shield) so most clients pay $0-25 per session, with a
+  core program completed in about 12 weeks. The company has raised approximately $20M
+  from AlleyCorp, General Catalyst, and Will Ventures. Birches Health does not currently
+  publish a public developer API, portal, or specification; this profile captures its
+  identity and public web surface.'
 url: https://raw.githubusercontent.com/api-evangelist/birches-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/t8EsDTzp3DjAYcpjAxrhpHrAOo.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +33,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Behavioral Health
+- Telehealth
+- Mental Health
+- Addiction Treatment
+- Gambling
+- Digital Health
 apis: []
+common:
+- type: DomainSecurity
+  url: security/birches-health-domain-security.yml
+- type: Website
+  url: https://bircheshealth.com/
+- type: About
+  url: https://bircheshealth.com/about
+- type: PrivacyPolicy
+  url: https://bircheshealth.com/privacy
+- type: TermsOfService
+  url: https://bircheshealth.com/termsandconditions
+- type: Pricing
+  url: https://bircheshealth.com/insurance-coverage-for-gambling-addiction-and-pricing
+- type: Support
+  url: https://bircheshealth.com/faq
+- type: SignUp
+  url: https://intake.bircheshealth.com/
+- type: Login
+  url: https://engagement.bircheshealth.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
