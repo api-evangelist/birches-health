@@ -13,6 +13,17 @@ description: 'Birches Health is a fully virtual behavioral addiction treatment p
   publish a public developer API, portal, or specification; this profile captures its
   identity and public web surface.'
 url: https://raw.githubusercontent.com/api-evangelist/birches-health/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
